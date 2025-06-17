@@ -4,47 +4,14 @@ This folder contains my solutions for the **FreeCodeCamp Data Analysis with Pyth
 
 ## Table of Contents
 
-- [Project 1: Demographic Data Analyzer](#project-1-demographic-data-analyzer)
-- [Project 2: Mean-Variance-Standard Deviation Calculator](#project-2-mean-variance-standard-deviation-calculator)
-- [Project 3: Page View Time Series Visualizer](#project-3-page-view-time-series-visualizer)
+- [Project 1: Page View Time Series Visualizer](#project-3-page-view-time-series-visualizer)
+- [Project 2: Demographic Data Analyzer](#project-1-demographic-data-analyzer)
+- [Project 3: Mean-Variance-Standard Deviation Calculator](#project-2-mean-variance-standard-deviation-calculator)
+
 - [Setup and Running Projects](#setup-and-running-projects)
 
 ---
-
-## Project 1: Demographic Data Analyzer
-
-Analyzes demographic data from `adult_data.csv` to calculate various statistics, including race counts, average age by gender, education percentages, and more.
-
-### Files
-
-- `Projects/demographic_data_analyzer/demographic_data_analyzer.py`
-- `Projects/demographic_data_analyzer/adult_data.csv`
-
-### Key Learning Points
-
-- Data loading and initial exploration with Pandas.
-- Filtering, grouping, and aggregation of data.
-- Conditional logic for data analysis.
-
----
-
-## Project 2: Mean-Variance-Standard Deviation Calculator
-
-Implements a function to calculate the mean, variance, standard deviation, max, min, and sum of a 3x3 matrix (or a flattened version) using NumPy.
-
-### Files
-
-- `Projects/mean_std_var/stats_calc.py`
-
-### Key Learning Points
-
-- Efficient numerical operations with NumPy arrays.
-- Reshaping and flattening arrays.
-- Handling `ValueError` for invalid input.
-
----
-
-## Project 3: Page View Time Series Visualizer
+## Project 1: Page View Time Series Visualizer
 
 Processes `fcc-forum-pageviews.csv` to create visualizations of daily forum page views, including line plots, bar charts, and box plots.
 
@@ -61,6 +28,39 @@ Processes `fcc-forum-pageviews.csv` to create visualizations of daily forum page
 - Time series data handling and cleaning.
 - Data visualization with Matplotlib and Seaborn.
 - Creating different types of plots to represent trends and distributions.
+
+---
+
+## Project 2: Demographic Data Analyzer
+
+Analyzes demographic data from `adult_data.csv` to calculate various statistics, including race counts, average age by gender, education percentages, and more.
+
+### Files
+
+- `Projects/demographic_data_analyzer/demographic_data_analyzer.py`
+- `Projects/demographic_data_analyzer/adult_data.csv`
+
+### Key Learning Points
+
+- Data loading and initial exploration with Pandas.
+- Filtering, grouping, and aggregation of data.
+- Conditional logic for data analysis.
+
+---
+
+## Project 3: Mean-Variance-Standard Deviation Calculator
+
+Implements a function to calculate the mean, variance, standard deviation, max, min, and sum of a 3x3 matrix (or a flattened version) using NumPy.
+
+### Files
+
+- `Projects/mean_std_var/stats_calc.py`
+
+### Key Learning Points
+
+- Efficient numerical operations with NumPy arrays.
+- Reshaping and flattening arrays.
+- Handling `ValueError` for invalid input.
 
 ---
 
