@@ -87,6 +87,7 @@ To run these projects locally:
     ```
 
 4.  **Execute the main script for each project:**
+    -   **Page View Time Series Visualizer:** `python "Page View Time Series Visualizer"/time_series_visualizer.py` (This will generate the plot images).
     -   **Demographic Data Analyzer:** `python demographic_data_analyzer/demographic_data_analyzer.py`
     -   **Mean-Variance-Standard Deviation Calculator:** The `stats_calc.py` file contains a function. You would typically import and call it in another script.
-    -   **Page View Time Series Visualizer:** `python "Page View Time Series Visualizer"/time_series_visualizer.py` (This will generate the plot images).
+    
