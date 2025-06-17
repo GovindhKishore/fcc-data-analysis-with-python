@@ -1,6 +1,6 @@
 # FreeCodeCamp Data Analysis Projects
 
-This repository contains my solutions for the **FreeCodeCamp Data Analysis with Python Certification**. Each project demonstrates core data analysis skills using Python libraries such as Pandas, NumPy, and Matplotlib/Seaborn.
+This folder contains my solutions for the **FreeCodeCamp Data Analysis with Python Certification**. Each project demonstrates core data analysis skills using Python libraries such as Pandas, NumPy, and Matplotlib/Seaborn.
 
 ## Table of Contents
 
