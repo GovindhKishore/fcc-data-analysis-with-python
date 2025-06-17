@@ -70,10 +70,10 @@ To run these projects locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/fcc-data-analysis-with-python.git](https://github.com/your-username/fcc-data-analysis-with-python.git)
+    git clone [https://github.com/GovindhKishore/fcc-data-analysis-with-python.git](https://github.com/GovindhKishore/fcc-data-analysis-with-python.git)
     cd fcc-data-analysis-with-python
     ```
-    *(Replace `your-username` with your actual GitHub username.)*
+    
 
 2.  **Navigate into the `Projects` directory:**
     ```bash
