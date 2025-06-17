@@ -1,6 +1,6 @@
 # FreeCodeCamp Data Analysis with Python
 
-This repository serves as a comprehensive collection of my work related to the **FreeCodeCamp Data Analysis with Python Certification**. It includes completed projects, learning notebooks, and practice exercises demonstrating various data analysis concepts and skills.
+Compiling my work for the FreeCodeCamp Data Analysis with Python Certification, this repository includes completed projects and supplementary learning resources. It should be noted that certain learning materials, specifically Jupyter Notebooks within designated folders (notebooks), are direct extractions from the FreeCodeCamp course content, used herein for educational demonstration and appropriate citation.
 
 ## Table of Contents
 
@@ -23,9 +23,9 @@ This directory (`Projects/`) contains the main certification projects required b
 
 ## Learning Resources / Notebooks
 
-This section holds various materials used for learning and practicing data analysis concepts.
+This section holds various materials used for learning and practising data analysis concepts.
 
-* **`notebooks/`**: Contains miscellaneous Python scripts or small exercises.
+* **`notebooks/`**: Contains Jupyter Notebooks related to the topics mentioned below, which are directly extracted from the Data Analysis with Python FCC Course.
 * **`JupyterNotebooks/`**: Contains Jupyter Notebooks used for exploration, learning, and demonstrations of data analysis concepts.
 * **`NumPy/`**: Exercises and examples specifically focused on the NumPy library.
 * **`Pandas/`**: Exercises and examples specifically focused on the Pandas library.
@@ -38,10 +38,10 @@ To set up and run the code in this repository:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/fcc-data-analysis-with-python.git](https://github.com/your-username/fcc-data-analysis-with-python.git)
+    git clone [https://github.com/GovindhKishore/fcc-data-analysis-with-python.git](https://github.com/GovindhKishore/fcc-data-analysis-with-python.git)
     cd fcc-data-analysis-with-python
     ```
-    *(Replace `your-username` with your actual GitHub username.)*
+    
 
 2.  **Install dependencies (for the main projects):**
     The core projects (in the `Projects/` directory) have their dependencies listed in `requirements.txt`.
@@ -56,5 +56,5 @@ To set up and run the code in this repository:
 
 Feel free to reach out if you have any questions or feedback.
 
-* Your Name - [your.email@example.com](mailto:your.email@example.com)
-* Project Link: [https://github.com/your-username/fcc-data-analysis-with-python](https://github.com/your-username/fcc-data-analysis-with-python)
+* Your Name - [govindhkishore7@gmail.com](govindhkishore7@gmail.com)
+* Project Link: [https://github.com/GovindhKishore/fcc-data-analysis-with-python](https://github.com/GovindhKishore/fcc-data-analysis-with-python)
