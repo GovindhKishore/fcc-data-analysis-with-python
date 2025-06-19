@@ -1,9 +1,14 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import numpy as np
 
+np.float = float
 # Import data (Make sure to parse dates. Consider setting index column to 'date'.)
 df = pd.read_csv("fcc-forum-pageviews.csv", index_col='date', parse_dates=True)
+# Ensure column is named 'value'
+if 'value' not in df.columns:
+    df.columns = ['value']
 
 # Clean data
 lower = df['value'].quantile(0.025)
@@ -35,11 +40,19 @@ def draw_bar_plot():
     }
 
     df_bar['month'] = df_bar['month'].map(month_map)
+    month_order = [
+        'January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+    ]
+
+    # Draw bar plot with correct hue order
+    fig = plt.figure()
+    sns.barplot(data=df_bar, x='year', y='value', hue='month', hue_order=month_order)
 
     # Draw bar plot
-    fig = plt.figure(figsize=(15, 13))
-    sns.barplot(data=df_bar, x='year', y='value', hue='month')
 
+    plt.xlabel('Years')
+    plt.ylabel('Average Page Views')
     # Save image and return fig (don't change this part)
     fig.savefig('bar_plot.png')
     return fig
@@ -55,6 +68,11 @@ def draw_box_plot():
     # Draw box plots (using Seaborn)
     fig, axes = plt.subplots(1, 2, figsize=(20, 10))
     ax1, ax2 = axes[0], axes[1]
+
+    month_order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    sns.boxplot(data=df_box, x='year', y='value', ax=ax1)
+    sns.boxplot(data=df_box, x='month', y='value', ax=ax2, order=month_order)
     ax1.set_title('Year-wise Box Plot (Trend)')
     ax1.set_xlabel('Year')
     ax1.set_ylabel('Page Views')
@@ -62,14 +80,10 @@ def draw_box_plot():
     ax2.set_xlabel('Month')
     ax2.set_ylabel('Page Views')
 
-    month_order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-               'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    sns.boxplot(data=df_box, x='year', y='value', ax=ax1)
-    sns.boxplot(data=df_box, x='month', y='value', ax=ax2, order = month_order)
-
     # Save image and return fig (don't change this part)
     fig.savefig('box_plot.png')
     return fig
 draw_line_plot().show()
 draw_bar_plot().show()
 draw_box_plot().show()
+
