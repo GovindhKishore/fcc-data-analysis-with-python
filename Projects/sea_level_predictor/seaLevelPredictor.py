@@ -34,6 +34,6 @@ def draw_plot(slope=None):
     plt.ylabel('Sea Level (inches)')
 
     # Save plot and return data for testing (DO NOT MODIFY)
-    #plt.savefig('sea_level_plot.png')
+    plt.savefig('sea_level_plot.png')
     plt.show()
 draw_plot()
