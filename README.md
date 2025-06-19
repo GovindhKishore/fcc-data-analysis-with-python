@@ -113,5 +113,5 @@ To set up and run the code in this repository:
 
 Feel free to reach out if you have any questions or feedback.
 
-* Your Name - [govindhkishore7@gmail.com](mailto:govindhkishore7@gmail.com)
+* Name - [govindhkishore7@gmail.com](mailto:govindhkishore7@gmail.com)
 * Project Link: [https://github.com/GovindhKishore/fcc-data-analysis-with-python](https://github.com/GovindhKishore/fcc-data-analysis-with-python)
